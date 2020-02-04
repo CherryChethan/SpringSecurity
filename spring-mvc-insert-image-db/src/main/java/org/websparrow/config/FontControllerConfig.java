@@ -20,5 +20,4 @@ public class FontControllerConfig extends AbstractAnnotationConfigDispatcherServ
 	protected String[] getServletMappings() {
 		return new String[] { "/" };
 	}
-	//ygyugunihu
 }

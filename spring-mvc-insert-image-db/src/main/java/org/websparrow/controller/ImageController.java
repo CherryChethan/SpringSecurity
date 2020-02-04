@@ -28,5 +28,4 @@ public class ImageController {
 			return new ModelAndView("index", "msg", "Error: " + e.getMessage());
 		}
 	}
-	//655fghjb
 }
