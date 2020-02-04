@@ -22,5 +22,6 @@ public class ImageDao {
 		String sql = "INSERT INTO STUDENT(NAME,AGE,PHOTO) VALUES (?,?,?)";
 
 		return jdbcTemplate.update(sql, new Object[] { name, age, photoBytes });
+		//uyhuhij
 	}
 }
